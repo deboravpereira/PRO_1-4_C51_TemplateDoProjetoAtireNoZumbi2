@@ -57,7 +57,8 @@ player = createSprite(displayWidth-1150, displayHeight-300, 50, 50);
     heart3 = createSprite(displayWidth-150,40,20,20)
     heart3.addImage("heart3",heart3Img)
     heart3.scale = 0.4
-   
+
+    console.log("Tecnologia é bom demais")
 
     //criar o grupo para os zumbis    
     zombieGroup = new Group();
